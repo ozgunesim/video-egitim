@@ -1,0 +1,262 @@
+<style>
+*{
+	outline: 0 !important;
+}
+
+#ana_kutu{
+	margin-top:70px !important;
+	margin-left:50px;
+	margin-right: 50px;
+}
+
+#arama_kutusu{
+	border: 1px solid rgb(34, 34, 34);
+}
+
+#sag_kutu{
+
+	padding: 0 !important;
+}
+
+#duyuru_baslik{
+	width: auto;
+	height: 50px;
+	float: left;
+	display: inline;
+	margin: 1px;
+	padding: 10px;
+	text-align: center;
+	line-height: 30px;
+	color:white;
+	font-weight: bold;
+}
+
+.duyuru_cubuk{
+	height: 50px !important;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0 !important;
+	line-height: 50px;
+	text-overflow: ellipsis;
+}
+
+#hoca_kutu{
+	  max-height: 300px;
+	  overflow-y: auto;
+	  overflow-x: hidden;
+	  text-overflow: ellipsis;
+}
+
+#sag_kutu > a{
+	color:#000;
+	padding: 10px;
+	transition: all 0.4s;
+	text-decoration: none;
+}
+
+#sag_kutu > div > div > a:hover{
+	background-color: #DDDDDD;
+	transition: all 0.4s;
+}
+
+
+#footer{
+	border-top: 10px solid #121212;
+	padding-top:20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.thumbnail{
+	word-wrap: break-word;
+}
+
+#index_alt_kutu{
+	border-right:15px solid transparent;
+	box-sizing:border-box;
+	min-height:160px;
+}
+
+#index_baslik{
+	margin-top: 0;
+	text-decoration: none;
+}
+#index_baslik>h4{
+	font-weight:bold;
+	margin-top: 0;
+	text-decoration: none;
+	color: #333333;
+}
+#index_baslik>h4:hover{
+	text-decoration: underline;
+}
+
+.baloncuk 
+{
+color: #000;
+padding:10px !important;
+position: relative;
+width: 100%;
+height: auto;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: #7F7F7F solid 1px;
+}
+
+.baloncuk:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 13px 0 13px 15px;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+right: -15px;
+top: 12px;
+}
+
+.baloncuk:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 13px 0 13px 15px;
+border-color: transparent #7F7F7F;
+display: block;
+width: 0;
+z-index: 0;
+right: -16px;
+top: 12px;
+}
+
+.well{
+	background-color: #fff !important;
+	border-color: #DDDDDD !important;
+}
+
+.glyphicon
+{
+    margin-right:4px !important; /*override*/
+}
+
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#555;
+}
+
+.panel ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.news-item
+{
+    padding:4px 4px;
+    margin:0px;
+    border-bottom:1px dotted #555; 
+}
+
+#haber_panel li table td{
+	font-size: small;
+}
+
+</style>
+
+.table-responsive {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+
+.takvim_onay{
+background: #3fb618;
+}
+.takvim_bekleyen{
+background: #9954bb;
+}
+.takvim_red{
+background: #ff0039;
+}
+.takvim_gecmis{
+background: #ff7518;
+}
+.takvim_iptal{
+background: #7B0946;
+color:white;
+}
+
+.bildirim{
+	border:none;
+	border-bottom:2px dotted #ddd;
+}
+
+.bildirim_liste{
+	max-height: 300px;
+	overflow-y: auto;
+	padding:0;
+	min-width:250px;
+}
+
+.day:hover{
+font-weight:bold;
+text-decoration: underline;
+background: rgb(150,150,255);
+transition: all 0.5s;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.golge{
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	-webkit-text-stroke: 0px;
+  text-shadow:
+       1px 1px 2px rgba(0,0,0,0.6),
+     -1px -1px 2px rgba(0,0,0,0.6),  
+      1px -1px 2px rgba(0,0,0,0.6),
+      -1px 1px 2px rgba(0,0,0,0.6),
+       1px 1px 2px rgba(0,0,0,0.6);
+}
+
+.golge-arka{
+	left: 0 !important;
+  right: 20% !important;
+  padding-bottom: 0px !important;
+  background-color: rgba(189, 189, 189,0.4) !important;
+  width: 100% !important;
+  bottom: 0 !important;
+  -webkit-box-shadow: 0px -2px 4px 0px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    0px -2px 4px 0px rgba(50, 50, 50, 0.55);
+box-shadow:         0px -2px 4px 0px rgba(50, 50, 50, 0.55);
+height: auto;
+padding-top: 0px;
+}
